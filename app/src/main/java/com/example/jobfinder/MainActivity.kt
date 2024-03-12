@@ -18,7 +18,7 @@ class  MainActivity: AppCompatActivity() {
         // Set OnClickListener for ivFab
         ivFab.setOnClickListener {
             // Start CandidateActivity when ivFab is clicked
-            val intent = Intent(this@MainActivity, CandidateActivity::class.java)
+            val intent = Intent(this@MainActivity, LoginActivity::class.java)
             startActivity(intent)
         }
     }
