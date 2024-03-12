@@ -10,6 +10,8 @@
     <color name="evenBackground">#FFC0CB</color>
     <color name="oddBackground">#C0FFFF</color>
     <!-- Custom Colors -->
+    <color name="textHeading">#008eff</color>
+
     <color name="dark_blue">#0D0140</color>
     <color name="blue">#130160</color>
     <color name="blue_magenta">#524B6B</color>
@@ -24,6 +26,8 @@
     <color name="light_orange">#FFBE7E</color>
     <color name="baby_blue">#EAF5FE</color>
     <color name="dark_purple">#514B6B</color>
+
+    <color name="pink">#ff5ccb</color>
 
     <!-- Component Colors-->
     <color name="splash_screen_background">@color/dark_blue</color>
