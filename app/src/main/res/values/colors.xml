@@ -27,6 +27,8 @@
     <color name="baby_blue">#EAF5FE</color>
     <color name="dark_purple">#514B6B</color>
 
+    <color name="pink">#ff5ccb</color>
+
     <!-- Component Colors-->
     <color name="splash_screen_background">@color/dark_blue</color>
     <color name="background_color">@color/off_white</color>
