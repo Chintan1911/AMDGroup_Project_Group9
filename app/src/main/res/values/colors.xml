@@ -10,6 +10,8 @@
     <color name="evenBackground">#FFC0CB</color>
     <color name="oddBackground">#C0FFFF</color>
     <!-- Custom Colors -->
+    <color name="textHeading">#008eff</color>
+
     <color name="dark_blue">#0D0140</color>
     <color name="blue">#130160</color>
     <color name="blue_magenta">#524B6B</color>
