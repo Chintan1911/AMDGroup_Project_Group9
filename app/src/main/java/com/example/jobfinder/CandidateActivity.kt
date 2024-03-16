@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.database.FirebaseDatabase
-
+// This file is created by me (Abhishek)
 class CandidateActivity : AppCompatActivity() {
     private var adapter: CandidateAdapter? = null;
     override fun onCreate(savedInstanceState: Bundle?) {
