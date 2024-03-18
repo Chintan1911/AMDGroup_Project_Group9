@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Done by Anai Joshy-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <!--    header-->
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/headerHome"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_marginTop="1dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="92dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="160dp"
+                    app:srcCompat="@drawable/logo" />
+
+                <ImageView
+                    android:id="@+id/logoutIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="350dp"
+                    android:layout_marginTop="26dp"
+                    app:srcCompat="@drawable/logout" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="26dp"
+                    app:srcCompat="@drawable/user" />
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/welcomeNote1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20sp"
+                    android:fontFamily="@font/belgrano"
+                    android:text="Welcome,"
+                    android:textColor="#418AC3"
+                    android:textSize="40sp"
+                    tools:layout_editor_absoluteX="48dp"
+                    tools:layout_editor_absoluteY="150dp" />
+
+                <TextView
+                    android:id="@+id/welcomeNote2"
+                    android:layout_width="396dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="2sp"
+                    android:fontFamily="@font/belgrano"
+                    android:text="to the ultimate Jobfinder app!"
+                    android:textColor="#418AC3"
+                    android:textSize="33sp"
+                    tools:layout_editor_absoluteX="48dp"
+                    tools:layout_editor_absoluteY="206dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/homecard2"
+                    android:layout_width="320dp"
+                    android:layout_height="330dp"
+                    android:layout_marginLeft="37sp"
+                    android:layout_marginTop="20sp"
+                    app:cardBackgroundColor="#418AC3"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="281dp">
+
+                    <TextView
+                        android:layout_width="289dp"
+                        android:layout_height="272dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/belgrano"
+                        android:lineSpacingExtra="8dp"
+                        android:text="Find your dream job with ease using our intuitive app. Explore tailored opportunities and take the next step towards your career goals."
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <!--    menu    -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/viewListing"
+                    android:layout_width="320dp"
+                    android:layout_height="103dp"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="79dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        app:srcCompat="@drawable/people" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="30dp"
+                        android:text="View Listings"
+                        android:textSize="25dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!-- Footer -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4189C2"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Footer Heading -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="115dp"
+                    android:text="#jobFinder"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Contact Us -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: support@jobfinderapp.com"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <!-- Feedback -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Feedback"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We value your feedback! Send us an email at feedback@jobfinderapp.com"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <!-- Copyright -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="115dp"
+                        android:text="© "
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024 jobfinder"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
