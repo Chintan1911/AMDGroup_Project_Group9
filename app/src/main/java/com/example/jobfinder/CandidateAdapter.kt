@@ -11,7 +11,7 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
-
+//this file was created by me(Abhishek)
 class CandidateAdapter (options: FirebaseRecyclerOptions<Candidate>) :
     FirebaseRecyclerAdapter<Candidate, CandidateAdapter.CandidateHolder>(options) {
 
